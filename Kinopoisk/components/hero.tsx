@@ -28,14 +28,18 @@ export default function Hero() {
             <h1 className="h1 mb-4" data-aos="fade-up">Погружение в мир кино начинается здесь!</h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Кино на любой вкус - всего один клик!</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div data-aos="fade-up" data-aos-delay="400">
+              <div data-aos="fade-up" data-aos-delay="500">
                 <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Подписка на кино за 1 рубль!</a>
+                
+
               </div>
-              <li>
-                <Link href="/learnout" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
-                  Узнать больше
+              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"></div>
+              <div data-aos="fade-up" data-aos-delay="500">
+                <Link href="/learnout" className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb- sm:w-auto sm:mb-0-">
+                  Смотрите библиотеку сайта!
                 </Link>
-              </li>
+                </div>
+              
             </div>
           </div>
 
